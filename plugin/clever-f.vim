@@ -2,6 +2,8 @@ if exists('g:loaded_clever_f') && g:loaded_clever_f
     finish
 endif
 
+echoerr "clever_f.vim: 'dev' branch is obsolete and will be deleted! Please use 'master' branch instead!"
+
 noremap <silent><expr><Plug>(clever-f-f)              clever_f#find_with('f')
 noremap <silent><expr><Plug>(clever-f-F)              clever_f#find_with('F')
 noremap <silent><expr><Plug>(clever-f-t)              clever_f#find_with('t')
